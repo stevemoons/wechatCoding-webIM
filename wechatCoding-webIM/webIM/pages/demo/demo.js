@@ -1,11 +1,6 @@
 Page({
     data: {
-        result: '',
-        array: [{
-            message: 'foo',
-            }, {
-            message: 'bar'
-            }]
+        result: ''
     },
     onLoad: function() {
         var that = this
@@ -14,7 +9,7 @@ Page({
           data: {
               grant_type: "password",
               username: 'asdfghj',
-              password: '123456',
+              password: '123456'
           },
           header: {
               'content-type': 'application/json'

@@ -12,6 +12,11 @@ Page({
       url: '../logs/logs'
     })
   },
+  bindWs: function() {
+    wx.navigateTo({
+      url: '../ws/ws'
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this
